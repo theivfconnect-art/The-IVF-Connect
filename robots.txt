@@ -1,0 +1,21 @@
+# The IVF Connect — robots.txt
+# https://www.theivfconnect.com
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.theivfconnect.com/sitemap.xml
+
+# Respect crawl delays for excessive scrapers
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
